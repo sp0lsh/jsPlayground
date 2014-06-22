@@ -15,9 +15,9 @@ var createSth = ( function () {
 });
 
 var sth = createSth();
-console.log( 'header:', sth.doStuff(), sth.addStuff( 0 ), sth.FIVE, sth );
+console.log( 'header:', sth.doStuff(), sth.addStuff( 1 ), sth.FIVE, sth );
 
 window.onload = onLoad;
 function onLoad() {
-	console.log( 'onLoad:', sth.doStuff(), sth.addStuff( 0 ), sth.FIVE, sth );
+	console.log( 'onLoad:', sth.doStuff(), sth.addStuff( 1 ), sth.FIVE, sth );
 };
