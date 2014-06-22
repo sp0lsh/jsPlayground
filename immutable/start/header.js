@@ -1,4 +1,4 @@
-function HIGH_FIVE () { return 5; };
+var HIGH_FIVE  = function () { return 5; };
 
 console.log( 'header:', HIGH_FIVE(), HIGH_FIVE );
 
