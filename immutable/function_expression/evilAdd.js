@@ -1,2 +1,2 @@
-HIGH_FIVE = 6;
+HIGH_FIVE = 666;
 console.log( 'evilAdd:', HIGH_FIVE );
