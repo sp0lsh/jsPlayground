@@ -1,6 +1,5 @@
 var createSth = ( function () {
-	// var FIVE = 5;
-	// Object.freeze( FIVE ); // lets freeze it! throws Object.freeze called on non-object 
+	'use strict';
 	
 	var constants = {
 		FIVE: 5
