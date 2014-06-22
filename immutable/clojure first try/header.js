@@ -1,5 +1,6 @@
 var constants = ( function () {
-	var _FIVE = 5; // will be assigned on each call
+	var _FIVE = 5; // will be assigned on each call, its bad
+	console.log( 'constant assigned' );
 	return {
 		FIVE: _FIVE
 	}
