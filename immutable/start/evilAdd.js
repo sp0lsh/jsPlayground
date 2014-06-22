@@ -1,2 +1,3 @@
-HIGH_FIVE = 6;
-console.log( 'evilAdd:', HIGH_FIVE );
+constants().FIVE = 666;
+// constants = 666; // causes number is not a function error
+console.log( 'evilAdd:', constants(), constants().FIVE );
