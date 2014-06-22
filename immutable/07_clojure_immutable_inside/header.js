@@ -11,7 +11,7 @@ var createSth = ( function () {
 	
 	return {
 		doStuff: function () {
-			return 'doStuff:' + constants.FIVE++; // but we can break it inside
+			return 'doStuff:' + constants.FIVE++; // change is ignored
 		},
 		
 		addStuff: function ( val ) {
