@@ -11,7 +11,7 @@ var createSth = ( function () {
 	return {
 		doStuff: function () {
 			// cannot break: throws Cannot assign to read only property 'FIVE' of #<Object> 
-			return 'doStuff:' + constants.FIVE; 
+			return 'doStuff:' + constants.FIVE++; 
 		},
 		
 		adStuff: function ( val ) {

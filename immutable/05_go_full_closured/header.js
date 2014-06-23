@@ -6,7 +6,7 @@ var createSth = ( function () {
 			return 'doStuff:' + FIVE;
 		},
 		
-		adStuff: function ( val ) {
+		addStuff: function ( val ) {
 			// FIVE sits still there,
 			// value is not inserted only at execution time of closure
 			return 'adStuff:' + ( FIVE + val );
@@ -15,9 +15,9 @@ var createSth = ( function () {
 });
 
 var sth = createSth();
-console.log( 'header:', sth.doStuff(), sth.adStuff( 1 ), sth.FIVE, sth );
+console.log( 'header:', sth.doStuff(), sth.addStuff( 1 ), sth.FIVE, sth );
 
 window.onload = onLoad;
 function onLoad() {
-	console.log( 'onLoad:', sth.doStuff(), sth.adStuff( 1 ), sth.FIVE, sth );
+	console.log( 'onLoad:', sth.doStuff(), sth.addStuff( 1 ), sth.FIVE, sth );
 };
